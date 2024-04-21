@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_shared_meta_imgs",
+  "info": {
+    "displayName": "metaImg",
+    "icon": "landscape"
+  },
+  "options": {},
+  "attributes": {
+    "img": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true,
+      "required": true
+    },
+    "alt": {
+      "type": "string"
+    }
+  }
+}
